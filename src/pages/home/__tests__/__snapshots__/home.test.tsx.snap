@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages:home matches snapshot with default test props 1`] = `
+<div>
+  <div
+    class="page-home"
+  >
+    <div
+      class="page-home-content-wrapper"
+    >
+      <h2>
+        React TypeScript Web App Template
+      </h2>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`pages:home renders the template header text 1`] = `
+<div>
+  <div
+    class="page-home"
+  >
+    <div
+      class="page-home-content-wrapper"
+    >
+      <h2>
+        React TypeScript Web App Template
+      </h2>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`pages:home uses the provided class name 1`] = `
+<div>
+  <div
+    class="page-home test-class"
+  >
+    <div
+      class="page-home-content-wrapper"
+    >
+      <h2>
+        React TypeScript Web App Template
+      </h2>
+    </div>
+  </div>
+</div>
+`;

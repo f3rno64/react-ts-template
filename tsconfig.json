@@ -1,0 +1,32 @@
+{
+  "include": ["*.js", "*.ts", "**/*.ts", "**/*.tsx"],
+
+  "compilerOptions": {
+    "target": "es6",
+    "jsx": "react-jsx",
+
+    "baseUrl": "./src",
+    "outDir": "./dist",
+    "sourceMap": true,
+    "incremental": true,
+
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+
+    "strict": true,
+    "noImplicitAny": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "module": "esnext",
+    "resolveJsonModule": true,
+    "isolatedModules": true
+  }
+}

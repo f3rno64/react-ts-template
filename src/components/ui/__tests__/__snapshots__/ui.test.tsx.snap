@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components:ui matches snapshot with default test props 1`] = `
+<div>
+  <div
+    class="component-ui"
+  >
+    <div
+      class="page-home"
+    >
+      <div
+        class="page-home-content-wrapper"
+      >
+        <h2>
+          React TypeScript Web App Template
+        </h2>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`components:ui uses the provided class name 1`] = `
+<div>
+  <div
+    class="component-ui test-class"
+  >
+    <div
+      class="page-home"
+    >
+      <div
+        class="page-home-content-wrapper"
+      >
+        <h2>
+          React TypeScript Web App Template
+        </h2>
+      </div>
+    </div>
+  </div>
+</div>
+`;
