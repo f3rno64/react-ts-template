@@ -6,7 +6,7 @@ const { NODE_ENV } = process.env
 
 const config = {
   mode: NODE_ENV ?? 'development',
-  entry: './src/index.tsx',
+  entry: path.resolve(__dirname, 'src/index.tsx'),
   module: {
     rules: [
       {
